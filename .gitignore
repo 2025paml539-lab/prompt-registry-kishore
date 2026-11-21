@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets
+.env
+*.key
+
+# Unmasked source data must never be committed
+data/raw/
+data/private/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
